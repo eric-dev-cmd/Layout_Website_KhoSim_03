@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font : {
+    size: 62.5% !important;
+  }
+}
+a {
+  text-decoration: none
+}
+ul, ol {
+  list-style: none
+}
+p {
+  #{$webMargin}-before: 0;
+  #{$webMargin}-after: 0;
+  #{$webMargin}-start: 0;
+  #{$webMargin}-end: 0;
+  text-rendering: geometricPrecision
+}
+.#{$fs}38{
+  #{$fontsize}: 3.8rem;
+}
+.#{$fs}24{
+  #{$fontsize}: 2.4rem;
+}
+.#{$fs}22{
+  #{$fontsize}: 2.2rem;
+}
+.#{$fs}20{
+  #{$fontsize}: 2rem;
+}
+.#{$fs}18{
+  #{$fontsize}: 1.8rem;
+}
+.#{$fs}16{
+  #{$fontsize}: 1.6rem;
+}
+.#{$fs}15{
+  #{$fontsize}: 1.5rem;
+}
+.#{$fs}14{
+  #{$fontsize}: 1.4rem !important;
+}
+.#{$fs}13{
+  #{$fontsize}: 1.3rem !important;
+}
+.#{$fs}12{
+  #{$fontsize}: 1.2rem !important;
+}
+.hide-pc{
+  display: none;
+}
+.bg-BFA{
+  #{$bg}: $bg-pri;
+}
+.text-phone{
+  color: $text-link-color-main;
+}
+.txt-blue{
+  color: $text-menu-top;
+}
+.txt-000{
+  color: $text-000;
+}
+.txt-white{
+  color: $white;
+}
+.txt-yellow{
+  color: #FED101;
+}
+.cursor{
+  cursor: pointer;
+}
+.hidepc{
+  display: none;
+}
+#app{
+    font-family: $font-family-main;
+    overflow: hidden;
+    #header-top{
+      #{$fontsize}: 1.4rem;
+      min-height: 4.2rem;
+      color: $text-menu-top;
+    }
+    #header-menu{
+      min-height: 5rem;
+      .bg-bar{
+        #{$bg}: $bg-pri;
+        height: 4rem;
+        margin: 0 15px;
+      }
+      .min-h5rem{
+        min-height: 5rem;
+      }
+      .menu{
+        margin-bottom: 0;
+        height: 5rem;
+        &-item{
+          @include colorStyleMenu;
+        }
+      }
+    }
+    .bg-dark-blue{
+      #{$bg}: $bg-dark-blue !important;
+    }
+}
+.#{$mobile}{
+  .show{
+    display: block;
+  }
+  .hide-mobile{
+    display: none;
+  }
+  .color-pri{
+    color: #FFD600;
+  }
+  .bg-mobile{
+    & i:first-child{
+      padding: 0.8rem 1.2rem;
+    }
+    .bg-search{
+      height: 3.6rem;
+      input{
+        color: $text-gray;
+        flex: 1;
+        margin-right: 0.8rem;
+        padding:{
+         right: 9.8rem;
+         left: 1rem;
+        }
+        outline: none;
+        border: none;
+      }
+      .ic-search {
+        right: 3.7rem;
+        padding: 0.5rem 0.8rem;
+        margin-right: -0.9rem;
+        color: $white;
+      }
+      .bg-btn{
+        background: $btn-bg;
+      }
+      & i:last-child{
+        padding-right: 0.6rem;
+      }
+    }
+    .bg-search-color{
+      #{$bg}: $bg-dark-blue;
+    }
+  }
+}

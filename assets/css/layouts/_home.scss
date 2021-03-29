@@ -1,0 +1,27 @@
+.pe-60{
+    padding-right: 6rem
+}
+.w-93{
+    width: 93%;
+}
+.txt-dark{
+    color: $text-menu-top;
+}
+.search-input{
+    input[type="text"]{
+        border: none;
+        outline: none;
+        margin-bottom: 1rem;
+    }
+    a{
+        right: 5.7rem;
+        top: 0;
+        height: 75%;
+        /* text-align: center; */
+        padding: 6px 17px;
+        &:hover{
+            color: #fab005;
+        }
+        
+    }
+}

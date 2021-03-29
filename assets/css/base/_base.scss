@@ -1,0 +1,54 @@
+//Nơi chưa tất cả biến, mixins, resets, typography hay các lớp tính năng (utility classes) cho web của bạn
+$webMargin: -webkit-margin;
+$fs: fs-;
+$fontsize: font-size;
+$font-family-main: 'Roboto', sans-serif;
+$bg-dark-blue: #414C5C;
+$bg-footer: #F4F5F7;
+$bg-table-hover: #F9F6EE;
+$border-table-hover: #CBCBCB;
+$bg-pri: #BFA356;
+$text-menu-top: #414C5C;
+$border-color-main: #CBCBCB;
+$text-color-main: #151515;
+$text-red: #DE2432;
+$text-000: #000000;
+$text-order: #613719;
+$text-fone: #ff0000;
+$text-mobi: #0000ff;
+$text-link-color-main: #BFA356;
+$text-gray: #7e8281;
+$white: #FFFFFF;
+$btn-bg: #BFA356;
+$mobile: body_mobile;
+$bg: background;
+@mixin colorStyleMenu {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+@mixin center($pos) {
+    position: absolute;
+    @if $pos == "both"{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } @else if $pos == "left"{
+        left: 50%;
+        transform: translateX(-50%);
+    }@else if $pos == "top"{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+@mixin maxWidth($value) {
+    @media screen and (max-width: $value){
+        @content;
+    }
+}
+@mixin minWidth($value) {
+    @media screen and (min-width: $value){
+        @content;
+    }
+}
+
