@@ -2,3 +2,23 @@
     min-height: 2.8rem;
     min-width: 7rem;
 }
+.side-img a img{
+    width: 100%;
+    height: 3rem;
+}
+.ml--8{
+    margin-left: -0.8rem;
+}
+.separate::before{
+    content: "";
+    width: 2rem;
+    height: 0.2rem;
+    display: block;
+    background: $bg-dark-blue;
+}
+.blog-new{
+    margin: 0 -0.9rem;
+}
+.txt-gray{
+    color: $text-gray;
+}

@@ -133,6 +133,120 @@ p {
   background: #414C5C !important;
 }
 
+#footer-top::-webkit-scrollbar {
+  display: none;
+}
+
+#footer-top .menu-footer {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.btn-timsim {
+  min-height: 2.8rem;
+  min-width: 7rem;
+}
+
+.side-img a img {
+  width: 100%;
+  height: 3rem;
+}
+
+.ml--8 {
+  margin-left: -0.8rem;
+}
+
+.separate::before {
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  display: block;
+  background: #414C5C;
+}
+
+.blog-new {
+  margin: 0 -0.9rem;
+}
+
+.txt-gray {
+  color: #7e8281;
+}
+
+.pe-60 {
+  padding-right: 6rem;
+}
+
+.w-93 {
+  width: 93%;
+}
+
+.txt-dark {
+  color: #414C5C;
+}
+
+.search-input input[type=text] {
+  border: none;
+  outline: none;
+  margin-bottom: 1rem;
+}
+.search-input a {
+  right: 5.7rem;
+  top: 0;
+  height: 75%;
+  /* text-align: center; */
+  padding: 6px 17px;
+}
+.search-input a:hover {
+  color: #fab005;
+}
+
+.btn-timsim {
+  min-height: 2.8rem;
+  min-width: 7rem;
+}
+
+.side-img a img {
+  width: 100%;
+  height: 3rem;
+}
+
+.ml--8 {
+  margin-left: -0.8rem;
+}
+
+.separate::before {
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  display: block;
+  background: #414C5C;
+}
+
+.blog-new {
+  margin: 0 -0.9rem;
+}
+
+.txt-gray {
+  color: #7e8281;
+}
+
+.btn-reuse #btn-1 {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  background: #BFA356;
+}
+.btn-reuse:hover {
+  opacity: 1;
+  border-color: #f1c604;
+}
+
+.body_mobile .mt--12 {
+  margin-top: -1.2rem;
+}
+.body_mobile .px-12 {
+  padding: 0 1.2rem;
+}
 .body_mobile .show {
   display: block;
 }
@@ -172,52 +286,21 @@ p {
 .body_mobile .bg-mobile .bg-search-color {
   background: #414C5C;
 }
-
-#footer-top::-webkit-scrollbar {
-  display: none;
+.body_mobile .blog-new div.blog-info {
+  padding: 0.6rem 1.2rem;
 }
-
-#footer-top .menu-footer {
-  white-space: nowrap;
-  overflow-x: auto;
+.body_mobile .tintuc {
+  background: #414C5C;
+  margin: 0 0;
+  padding: 0.55rem;
+  color: white;
+  text-align: center;
 }
-
-.btn-timsim {
-  min-height: 2.8rem;
-  min-width: 7rem;
-}
-
-.pe-60 {
-  padding-right: 6rem;
-}
-
-.w-93 {
-  width: 93%;
-}
-
-.txt-dark {
-  color: #414C5C;
-}
-
-.search-input input[type=text] {
-  border: none;
-  outline: none;
-  margin-bottom: 1rem;
-}
-.search-input a {
-  right: 5.7rem;
-  top: 0;
-  height: 75%;
-  /* text-align: center; */
-  padding: 6px 17px;
-}
-.search-input a:hover {
-  color: #fab005;
-}
-
-.btn-timsim {
-  min-height: 2.8rem;
-  min-width: 7rem;
+.body_mobile .fixed-menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=main.css.map */

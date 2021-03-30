@@ -80,11 +80,11 @@
                                                 <i class="far fa-sim-card"></i> Sim năm sinh</a>
                                         </li>
                                         <li class="list-inline-item menu-item">
-                                            <a href="thanhtoan.html" class="menu-item-link text-decoration-none fs-14 text-white">
+                                            <a href="tintuc.html" class="menu-item-link text-decoration-none fs-14 text-white">
                                                 <i class="fal fa-credit-card-front"></i> Sim trả góp</a>
                                         </li>
                                         <li class="list-inline-item menu-item">
-                                            <a href="tintuc.html" class="menu-item-link text-decoration-none fs-14 text-white">
+                                            <a href="thanhtoan.html" class="menu-item-link text-decoration-none fs-14 text-white">
                                                 <i class="fal fa-newspaper"></i> Thanh toán</a>
                                         </li>
                                     </ul>
@@ -96,7 +96,7 @@
                 </div>
             </div> 
             <div id="header-mobile" class="hidepc show">
-                <div class="d-flex align-items-center justify-content-between bg-mobile bg-BFA">
+                <div class="d-flex align-items-center justify-content-between bg-mobile bg-BFA pb-2 ">
                         <i class="fas fa-bars fw-bold fs-18"></i>
                     <div class="bg-search bg-search-color w-100 align-items-center justify-content-between d-flex position-relative">
                         <input type="tel" class="fs-13 ms-3 py-1 rounded" placeholder="Tìm kiếm sim ...">
@@ -106,12 +106,13 @@
                 </div>
             </div>
         </header>
-        <main class="py-5 bg-danger my-3">
+        <main class="py-2 my-3">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div></div>
-                    </div>
+                <div class="text-center position-relative">
+                    <img src="./assets/images/news/error.svg" alt="ERROR" class="mw-100">
+                    <img src="./assets/images/news/404.svg" alt="404" class="mw-100 position-absolute" style="z-index: 1; left: 59rem; top: 10rem;">
+                    <p class="fs-16">Trang bạn yêu cầu không tồn tài hoặc đã được chuyển sang địa chỉ mới</p>
+                    <p class="fs-18"><span>Trở về <span><a href="trangchu.html" class="text-decoration-none fw-bold text-phone">TRANG CHỦ</a></span></span></p>
                 </div>
             </div>
         </main>
@@ -120,16 +121,16 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                                <ul class="list-inline fs-14 mb-0 py-3 menu-footer">
-                                    <li class="list-inline-item pe-4"><a href="#" class="text-decoration-none text-white">Trang chủ</a></li>
-                                    <li class="list-inline-item pe-4"><a href="#" class="text-decoration-none text-white">Sim theo mạng</a></li>
-                                    <li class="list-inline-item pe-4"><a href="#" class="text-decoration-none text-white">Sim theo giá</a></li>
-                                    <li class="list-inline-item pe-4"><a href="#" class="text-decoration-none text-white">Sim theo loại</a></li>
-                                    <li class="list-inline-item pe-4"><a href="#" class="text-decoration-none text-white">Sim theo năm sinh</a></li>
-                                    <li class="list-inline-item pe-4"><a href="#" class="text-decoration-none text-white">Tin tức</a></li>
-                                    <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">Trợ giúp</a></li>
-                                </ul>
-                        </div>
+                            <ul class="list-inline fs-14 mb-0 py-3 menu-footer">
+                                <li class="list-inline-item pe-4"><a href="trangchu.html" class="text-decoration-none text-white">Trang chủ</a></li>
+                                <li class="list-inline-item pe-4"><a href="huongdanthanhtoan.html" class="text-decoration-none text-white">Sim theo mạng</a></li>
+                                <li class="list-inline-item pe-4"><a href="ketquatimsim.html" class="text-decoration-none text-white">Sim theo giá</a></li>
+                                <li class="list-inline-item pe-4"><a href="khongcosim.html" class="text-decoration-none text-white">Sim theo loại</a></li>
+                                <li class="list-inline-item pe-4"><a href="page404.html" class="text-decoration-none text-white">Sim theo năm sinh</a></li>
+                                <li class="list-inline-item pe-4"><a href="thanhtoanthanhcong.html" class="text-decoration-none text-white">Tin tức</a></li>
+                                <li class="list-inline-item"><a href="tintuc.html" class="text-decoration-none text-white">Trợ giúp</a></li>
+                            </ul>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -164,6 +165,15 @@
             </div> 
         </footer>
     </div>
+    <script>
+         $(".check-height").matchHeight({
+        byRow: true,
+        property: 'height',
+        target: null,
+        remove: false
+    });
+    </script>
+    <script src="./assets/lib/bootstrap-5/js/test.js"></script>
     <script src="./assets/lib/bootstrap-5/js/jquery-3.1.1.min.js"></script>
     <script src="./assets/lib/bootstrap-5/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"

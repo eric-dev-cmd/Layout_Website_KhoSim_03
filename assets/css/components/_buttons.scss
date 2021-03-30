@@ -1,1 +1,13 @@
 // Chứa code cho các thành phần có thể sử dụng lại (reusable) như buttons, navbars, cards,
+.btn-reuse{
+    #btn-1{
+        width: 100%;
+        height: 4rem;
+        border: none;
+        background: $btn-bg;
+    }
+    &:hover{
+        opacity: 1;
+        border-color: rgb(241, 198, 4);
+    }
+}
