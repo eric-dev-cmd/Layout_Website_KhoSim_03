@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Kho Sim Số Đẹp Giá Rẻ Lớn Nhất Việt Nam - KhoSim.com</title>
 </head>
+
 <body>
     <div id="app">
         <header>
@@ -19,7 +21,9 @@
                 <div class="container ">
                     <div class="row d-flex align-items-center justify-content-between">
                         <div class="col-7">
-                            <span><i class="fas fa-chevron-circle-right fs-14"></i>&nbsp;Khuyến mãi <span class="fw-bold">20%</span> ngày <span class="fw-bold">09/01/2021</span> cho sim trả sau mobifone</span>
+                            <span><i class="fas fa-chevron-circle-right fs-14"></i>&nbsp;Khuyến mãi <span
+                                    class="fw-bold">20%</span> ngày <span class="fw-bold">09/01/2021</span> cho sim trả
+                                sau mobifone</span>
                         </div>
                         <div class="col-4 ">
                             <div class="d-flex align-items-center justify-content-center float-end">
@@ -35,9 +39,9 @@
                                 </div>
                                 <div class="text-center">
                                     <span class="fs-13 d-block text-uppercase">Hệ thống cửa hàng</span>
-                                    <a href="#" class="fs-13 text-decoration-none fw-bold text-phone">Xem chi tiết</a>    
+                                    <a href="#" class="fs-13 text-decoration-none fw-bold text-phone">Xem chi tiết</a>
                                 </div>
-    
+
                             </div>
                         </div>
                     </div>
@@ -91,17 +95,180 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-            </div> 
+            </div>
             <div id="header-mobile" class="hidepc show">
-                <div class="d-flex align-items-center justify-content-between bg-mobile bg-BFA pb-2 ">
-                        <i class="fas fa-bars fw-bold fs-18"></i>
-                    <div class="bg-search bg-search-color w-100 align-items-center justify-content-between d-flex position-relative">
+                <div class="d-flex align-items-center justify-content-between bg-mobile bg-BFA pb-2 position-relative">
+                    <i class="fas fa-bars fw-bold fs-18"></i>
+                    <div class="bg-search bg-search-color w-100 align-items-center justify-content-between d-flex">
+                        
                         <input type="tel" class="fs-13 ms-3 py-1 rounded" placeholder="Tìm kiếm sim ...">
                         <i class="far fa-search fs-14 position-absolute ic-search rounded bg-btn"></i>
-                        <i class="fas fa-filter fs-14 color-pri ic-filter"></i>
+                        
+                        <input type="checkbox" hidden id="bar-id1">
+                        <label for="bar-id1" class=""><i class="fas fa-filter fs-14 color-pri ic-filter"></i></label>
+                        <label for='bar-id1' class="overlay-mobile"></label>
+                        <div class="position-absolute filter1 fs-14 px-3 py-3 w-100">
+                            <div class="row">
+                                <div class="col-12">
+                                    <span class="text-uppercase fw-bold text-dark">Bộ lọc</span>
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <span class="txt-000">Chọn số sim</span>
+                                    <input type="text" class="form-control form-control-sm border-warning mt-1 txt-dark fs-14" placeholder="Nhập số sim bạn cần tìm...">
+                                </div>
+                                <div class="col-12 mt-2">
+                                    <span class="txt-000">Chọn giá tiền</span>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <input type="text" class="form-control form-control-sm border-warning mt-1 txt-dark fs-14" placeholder="Giá từ">
+                                        </div>
+                                        <div class="col-6">
+                                            <input type="text" class="form-control form-control-sm border-warning mt-1 txt-dark fs-14" placeholder="Giá đến">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                    <span class="txt-000">Chọn nhà mạng</span>
+                                    <div class="input-group">
+                                        <div class="px-2 py-2 width-136">
+                                            <input type="checkbox" name="mobifone" id="chk001">
+                                            <label for="chk001" class="cursor fs-14 fw-bold">
+                                                <span class="mobi">Mobi<span class="fone">fone</span></span>
+                                            </label>
+                                        </div>
+                                        <div class="px-2 py-2 width-136">
+                                            <input type="checkbox" name="mobifone" id="chk002">
+                                            <label for="chk002" class="cursor fs-14 fw-bold">
+                                                <span class="vina">Vinaphone</span>
+                                            </label>
+                                        </div>
+                                        <div class="px-2 py-2">
+                                            <input type="checkbox" name="mobifone" id="chk003">
+                                            <label for="chk003" class="cursor fs-14 fw-bold">
+                                                <span>Reddi</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="px-2 py-2 width-136">
+                                            <input type="checkbox" name="mobifone" id="chk004">
+                                            <label for="chk004" class="cursor fs-14 fw-bold">
+                                                <span>Vietnamobile</span>
+                                            </label>
+                                        </div>
+                                        <div class="px-2 py-2 width-136">
+                                            <input type="checkbox" name="mobifone" id="chk005">
+                                            <label for="chk005" class="cursor fs-14 fw-bold">
+                                                <span>Viettel</span>
+                                            </label>
+                                        </div>
+                                        <div class="px-2 py-2">
+                                            <input type="checkbox" name="mobifone" id="chk006">
+                                            <label for="chk006" class="cursor fs-14 fw-bold">
+                                                <span>iTelecom</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="px-2 py-2 width-136">
+                                            <input type="checkbox" name="mobifone" id="chk007">
+                                            <label for="chk007" class="cursor fs-14 fw-bold">
+                                                <span>Gmobile</span>
+                                            </label>
+                                        </div>
+                                        <div class="px-2 py-2 width-136">
+                                            <input type="checkbox" name="mobifone" id="chk008">
+                                            <label for="chk008" class="cursor fs-14 fw-bold">
+                                                <span>Tất cả</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                    <span class="txt-000">Dãy số không gồm</span>
+                                    <div class="input-group d-flex justify-content-start ms-2">
+                                        <div class="all-cursor d-flex justify-content-center align-items-center me-2">
+                                            <input type="checkbox" name="num1" id="chkds1"> <label for="chkds1" class="fs-13 fw400 cursor me-5"> <span class="ps-1">1</span>
+                                            </label>
+                                        </div>
+                                        <div class="all-cursor d-flex justify-content-center align-items-center me-2">
+                                            <input type="checkbox" name="num2" id="chkds2"> <label for="chkds2" class="fs-13 fw400 cursor me-5"> <span class="ps-1">2</span>
+                                            </label>
+                                        </div>
+                                        <div class="all-cursor d-flex justify-content-center align-items-center me-2">
+                                            <input type="checkbox" name="num3" id="chkds3"> <label for="chkds3" class="fs-13 fw400 cursor me-5"> <span class="ps-1">3</span>
+                                            </label>
+                                        </div>
+                                        <div class="all-cursor d-flex justify-content-center align-items-center me-2">
+                                            <input type="checkbox" name="num4" id="chkds4"> <label for="chkds4" class="fs-13 fw400 cursor me-5"> <span class="ps-1">4</span>
+                                            </label>
+                                        </div>
+                                        <div class="all-cursor d-flex justify-content-center align-items-center me-2">
+                                            <input type="checkbox" name="num5" id="chkds5"> <label for="chkds5" class="fs-13 fw400 cursor me-5"> <span class="ps-1">5</span>
+                                            </label>
+                                        </div>
+                                        <div class="all-cursor d-flex justify-content-center align-items-center me-2" style="margin-left: 0">
+                                            <input type="checkbox" name="num6" id="chkds6"> <label for="chkds6" class="fs-13 fw400 cursor me-5"> <span class="ps-1">6</span>
+                                            </label>
+                                        </div>
+                                        <div class="all-cursor d-flex justify-content-center align-items-center me-2">
+                                            <input type="checkbox" name="num7" id="chkds7"> <label for="chkds7" class="fs-13 fw400 cursor me-5"> <span class="ps-1">7</span>
+                                            </label>
+                                        </div>
+                                        <div class="all-cursor d-flex justify-content-center align-items-center me-2">
+                                            <input type="checkbox" name="num8" id="chkds8"> <label for="chkds8" class="fs-13 fw400 cursor me-5"> <span class="ps-1">8</span>
+                                            </label>
+                                        </div>
+                                        <div class="all-cursor d-flex justify-content-center align-items-center me-2">
+                                            <input type="checkbox" name="num9" id="chkds9"> <label for="chkds9" class="fs-13 fw400 cursor me-5"> <span class="ps-1">9</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                    <span class="txt-000">Dãy số không gồm</span>
+                                    <div class="input-group d-flex justify-content-start ms-2">
+                                        <div class="cursor d-flex justify-content-center align-items-center me-4">
+                                            <input type="checkbox" name="num1" id="chk099"> <label for="chk099" class="fs-13 fw400 cursor"> <span class="ps-1">09</span>
+                                            </label>
+                                        </div>
+                                        <div class="cursor d-flex justify-content-center align-items-center me-4">
+                                            <input type="checkbox" name="num2" id="chkds033"> <label for="chkds033" class="fs-13 fw400 cursor"> <span class="ps-1">03</span>
+                                            </label>
+                                        </div>
+                                        <div class="cursor d-flex justify-content-center align-items-center me-4">
+                                            <input type="checkbox" name="num3" id="chkds055"> <label for="chkds055" class="fs-13 fw400 cursor"> <span class="ps-1">05</span>
+                                            </label>
+                                        </div>
+                                        <div class="cursor d-flex justify-content-center align-items-center me-4">
+                                            <input type="checkbox" name="num4" id="chkds077"> <label for="chkds077" class="fs-13 fw400 cursor"> <span class="ps-1">07</span>
+                                            </label>
+                                        </div>
+                                        <div class="cursor d-flex justify-content-center align-items-center me-4">
+                                            <input type="checkbox" name="num5" id="chkds88"> <label for="chkds88" class="fs-13 fw400 all-cursor"> <span class="ps-1">08</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <input type="text" class="form-control form-control-sm fs-14" placeholder="Tổng điểm: < 81 ">
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <input type="text" class="form-control form-control-sm fs-14" placeholder="Tổng nút: 1 - 10">
+                                </div>
+                                <div class="col-12 mt-3 mb-1">
+                                    <div>
+                                        <button type="submit"
+                                            class="btn btn-sm text-uppercase fw-bold text-white bg-dark-blue cursor fs-12 btn-timsim width-100">Tìm sim</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -126,26 +293,463 @@
                                     </ul>
                                 </div>
                                 <div class="col-5">
-                                    <span class="d-block text-end pe-60"><a href="#" class="text-decoration-none fs-15 txt-yellow text-end d-block">Tìm kiếm nâng cao</a></span>
+                                        <div class="position-relative">
+                                            <input type="checkbox" hidden class="bar" name="" id="showdropdown">
+                                            <label for="showdropdown" class="text-decoration-none fs-15 txt-yellow text-end d-block cursor pe-56" id="findAdvanced">Tìm kiếm nâng cao</label>    
+                                            <div class="col-12" id="show-wrapper">
+                                                <label for='showdropdown' class="overlay"></label>
+                                                <div class="wrapper-find position-absolute btn-shadow mt-4">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="px-5 py-3">
+                                                                <form action="#" method="post">
+                                                                    <div class="row">
+                                                                        <div class="col-8">
+                                                                            <div class="row">
+                                                                                <div class="col-4">
+                                                                                    <h4 class="txt-000 fw-bold fs-17 text-start">Sim theo mạng</h4>
+                                                                                    <div class="form-check text-start text-start fs-14 mt-3">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chkviettel">
+                                                                                        <label class="form-check-label cursor"for="chkviettel">Sim Viettel</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chkmobifone">
+                                                                                        <label class="form-check-label cursor"for="chkmobifone">Sim Mobifone</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chkvinaphone">
+                                                                                        <label class="form-check-label cursor"for="chkvinaphone">Sim Vinaphone</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chkgmobile">
+                                                                                        <label class="form-check-label cursor"for="chkgmobile">Sim Gmobile</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chkvietnamobile">
+                                                                                        <label class="form-check-label cursor"for="chkvietnamobile">Sim Vietnamobile</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chkitelecom">
+                                                                                        <label class="form-check-label cursor"for="chkitelecom">Sim iTelecom</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-4">
+                                                                                    <h4 class="txt-000 fw-bold fs-17 text-start">Sim theo giá</h4>
+                                                                                    <div class="form-check text-start fs-14 mt-3">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chk1">
+                                                                                        <label class="form-check-label cursor"for="chk1">Dưới 500 nghìn</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chk2">
+                                                                                        <label class="form-check-label cursor"for="chk2">Giá 500 - 1 triệu</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chk3">
+                                                                                        <label class="form-check-label cursor"for="chk3">Giá 1 - 3 triệu</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chk4">
+                                                                                        <label class="form-check-label cursor"for="chk4">Giá 3 - 5 triệu</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chk5">
+                                                                                        <label class="form-check-label cursor"for="chk5">Giá 5 - 10 triệu</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chk6">
+                                                                                        <label class="form-check-label cursor"for="chk6">Giá 10 - 50 triệu</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-4">
+                                                                                    <div class="form-check text-start fs-14 mt-5">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chk7">
+                                                                                        <label class="form-check-label cursor"for="chk7">Giá 50 - 100 triệu</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chk8">
+                                                                                        <label class="form-check-label cursor"for="chk8">Giá 100 - 200 triệu</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chk9">
+                                                                                        <label class="form-check-label cursor"for="chk9">Giá 200 - 500 triệu</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chk10">
+                                                                                        <label class="form-check-label cursor"for="chk10">Giá trên 500 triệu</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <h4 class="txt-000 fw-bold fs-17 text-start">Số tránh</h4>
+                                                                            <div style="margin-top: 0.8rem;margin-right: 3.6rem">
+                                                                                <div class="form-check text-start form-check-inline fs-14 mt-1">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chksotranh0" value="option">
+                                                                                    <label class="form-check-label cursor" for="chksotranh0">0</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chksotranh1" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chksotranh1">1</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chksotranh2" value="option">
+                                                                                    <label class="form-check-label cursor" for="chksotranh2">2</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chksotranh3" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chksotranh3">3</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chksotranh4" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chksotranh4">4</label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div style="margin-top: 0.8rem;margin-right: 3.6rem">
+                                                                                <div class="form-check text-start form-check-inline fs-14 mt-1">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chksotranh5" value="option">
+                                                                                    <label class="form-check-label cursor" for="chksotranh5">5</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chksotranh6" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chksotranh6">6</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chksotranh7" value="option">
+                                                                                    <label class="form-check-label cursor" for="chksotranh7">7</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chksotranh8" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chksotranh8">8</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chksotranh9" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chksotranh9">9</label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h4 class="txt-000 fw-bold fs-17 mt-4 text-start">Đầu số</h4>
+                                                                            <div style="margin-right: 0.6rem">
+                                                                                <div class="form-check text-start form-check-inline fs-14 mt-1">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chkdauso09" value="option">
+                                                                                    <label class="form-check-label cursor" for="chkdauso09">09</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chkdauso03" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chkdauso03">03</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chkdauso05" value="option">
+                                                                                    <label class="form-check-label cursor" for="chkdauso05">05</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chkdauso07" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chkdauso07">07</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chkdauso08" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chkdauso08">08</label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h4 class="txt-000 fw-bold fs-17 mt-3 text-start">Thuê bao</h4>
+                                                                            <div style="margin-right: 8.2rem;">
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chktratruoc" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chktratruoc">Trả trước</label>
+                                                                                </div>
+                                                                                <div class="form-check text-start form-check-inline fs-14">
+                                                                                    <input class="form-check-input cursor" type="checkbox" id="chktrasau" value="option2">
+                                                                                    <label class="form-check-label cursor" for="chktrasau">Trả sau</label>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr>
+                                                                    <div class="row">
+                                                                        <h4 class="txt-000 fw-bold fs-17 my-2 text-start">Sim theo loại</h4>
+                                                                        <div class="col-8">
+                                                                            <div class="row">
+                                                                                <div class="col-4">
+                                                                                    <div class="form-check text-start fs-14 mt-3">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chklucquy">
+                                                                                        <label class="form-check-label cursor"for="chklucquy">Sim lục quý</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chknguquy">
+                                                                                        <label class="form-check-label cursor"for="chknguquy">Sim ngũ quý</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chktuquy">
+                                                                                        <label class="form-check-label cursor"for="chktuquy">Sim tứ quý</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chknamsinh">
+                                                                                        <label class="form-check-label cursor"for="chknamsinh">Sim năm sinh</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chktamhoakep">
+                                                                                        <label class="form-check-label cursor"for="chktamhoakep">Sim tam hoa kép</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chktamhoa">
+                                                                                        <label class="form-check-label cursor"for="chktamhoa">Sim tam hoa</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-4">
+                                                                                    <div class="form-check text-start fs-14 mt-3">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chklocphat">
+                                                                                        <label class="form-check-label cursor"for="chklocphat">Sim lộc phát</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chkthantai">
+                                                                                        <label class="form-check-label cursor"for="chkthantai">Sim thần tài</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chktaxi">
+                                                                                        <label class="form-check-label cursor"for="chktaxi">Sim taxi</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chkongdia">
+                                                                                        <label class="form-check-label cursor"for="chkongdia">Sim ông địa</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chksimdoi">
+                                                                                        <label class="form-check-label cursor"for="chksimdoi">Sim đối</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chksimlap">
+                                                                                        <label class="form-check-label cursor"for="chksimlap">Sim lặp</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-4">
+                                                                                    <div class="form-check text-start fs-14 mt-3">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chksimkep">
+                                                                                        <label class="form-check-label cursor"for="chksimkep">Sim kép</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chksimganhdao">
+                                                                                        <label class="form-check-label cursor"for="chksimganhdao">Sim gánh đảo</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chktienlen">
+                                                                                        <label class="form-check-label cursor"for="chktienlen">Sim tiến lên</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chksimdausoco">
+                                                                                        <label class="form-check-label cursor"for="chksimdausoco">Sim đầu số cổ</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chklucquygiua">
+                                                                                        <label class="form-check-label cursor"for="chklucquygiua">Sim lục quý giữa</label>
+                                                                                    </div>
+                                                                                    <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                        <input class="form-check-input cursor" type="checkbox"
+                                                                                            value="" id="chknguquygiua">
+                                                                                        <label class="form-check-label cursor"for="chknguquygiua">Sim ngũ quý giữa</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <div class="form-check text-start fs-14 mt-3">
+                                                                                <input class="form-check-input cursor" type="checkbox"
+                                                                                    value="" id="chksimtuquygiuaa">
+                                                                                <label class="form-check-label cursor"for="chksimtuquygiuaa">Sim tứ quý giữa</label>
+                                                                            </div>
+                                                                            <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                <input class="form-check-input cursor" type="checkbox"
+                                                                                    value="" id="chksimdaicat">
+                                                                                <label class="form-check-label cursor"for="chksimdaicat">Sim đại cát</label>
+                                                                            </div>
+                                                                            <div class="form-check text-start fs-14 mt-3 hover-blue">
+                                                                                <input class="form-check-input cursor" type="checkbox"
+                                                                                    value="" id="chksimtragop">
+                                                                                <label class="form-check-label cursor"for="chksimtragop">Sim trả góp 0%</label>
+                                                                            </div>
+                                                                        </div>
+            
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-3" style="background: red;">
+                                                        <div class="btn-reuse bg-BFA text-white">
+                                                            <button type="button" id="btn-2" class="mw-100 fw-bold text-white btn-warning fs-14 py-2 btn-shadow"><span>Xem 11 kết quả</span></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="mt-4">
-                                <h1 class="text-uppercase txt-blue fs-18 fw-bold">Sim số đẹp</h1>
-                                <p class="txt-blue fs-14">Sim so dep giá rẻ các mạng Viettel, Mobi, Vina. Bán Sim số đẹp giá gốc, đăng ký thông tin chính chủ. Giao sim miễn phí toàn quốc.</p>
+                            <div class="col-12">
+                                <div class="card-header text-white bg-dark-blue text-start fs-14 mt-4 fs-14 py-3" style="letter-spacing: 0.15rem; height: 4rem;">
+                                    <div class="fs-14 pt-1" style="padding-left: 7px;">
+                                        <a href="tintuc.html" class="text-decoration-none text-white"><span class="text-uppercase fw-bold">TIN TỨC</span></a>
+                                        <span class="hide-mobile">&nbsp;/&nbsp;</span>
+                                        <span class="hide-mobile">Cách đăng ký dịch vụ nhạc chờ Funringmobifone Cách đăng ký dịch vụ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="border ps-4 pe-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="w-100 my-3">
+                                                <span class="fs-12"><i class="fas fa-calendar-day txt-dark fs-12 pe-2"></i><span class="text-secondary text-uppercase fs-12">09/04/2021 -</span><span class="fw-bold"> Trung Vinh</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <article>
+                                        <p class="fs-14">
+                                            <span class="txt-000 fw-bold fst-italic">Với uy tín và kinh nghiệm hoạt động hơn 15 năm trong lĩnh vực sim số đẹp, đại lý muasim.com.vn luôn có những chương trình, khuyến mại tri ân khách hàng. Giúp người mua sim có cơ hội sở hữu sim so dep với giá rẻ</span>
+                                        </p>
+                                        <p>
+                                            <h1 class="fs-15 fw-bold">Lợi ích của việc mua sim số đẹp trên web muasim.com.vn</h1>
+                                        </p>
+                                        <p>
+                                            <span class="fs-14">Cách đây nhiều năm về trước khi dịch vụ mua bán trực tuyến chưa phát triển ,khách hàng muốn mua một sim số đẹp phải đi ra một cửa hàng,đại lý nào đó để ngồi “mò mẫm” chọn sim trong một list.Việc này đem lại sự mệt mỏi,phiền toái,mất thời gian…. Mà có khi không chọn được sim mình thích như sim năm sinh,tứ quý,sim tam hoa,số kép…. Bởi vì sim số đẹp nằm ở nhiều kho,đại lý nên không có sự so sánh trực quan về độ đẹp và giá cả</span>
+                                        </p>
+                                        <p>
+                                            <span class="fs-14">Trào lưu mua bán trực tuyến phát triển đã đem lại cho người mua sim rất nhiều lợi ích. Ngày nay chỉ cần có một chiếc điện thoại smartphone bạn có thể tìm kiếm, kiểm tra, so sánh,xem phong thủy sim,sim hợp tuổi,hợp mệnh... Ngay tại nhà, nơi làm việc, đi du lịch…</span>
+                                        </p>
+                                        <div class="article-title position-relative my-4 py-4 px-4" style="background: #F7F7F7">
+                                            <span class="txt-000 fs-14 border-bottom">Xem thêm về </span>
+                                            <a href="#" class="text-decoration-none fs-14">dịch vụ Viettel</a>
+                                            <p class="pt-3 pb-2">
+                                                <a href="chitiettintuc.html" class="text-decoration-none fs-14 text-danger">Cách đăng ký dịch vụ nhạc chờ Funringmobifone Cách đăng ký dịch vụ</a>
+                                            </p>
+                                            <p>
+                                                <a href="chitiettintuc.html" class="text-decoration-none fs-14 text-dark">Cách đăng ký dịch vụ nhạc chờ Funringmobifone Cách đăng ký dịch vụ</a>
+                                            </p>
+                                        </div>
+                                        <p>
+                                            <div class="fs-15 fw-bold">Lợi ích của việc mua sim số đẹp trên web muasim.com.vn</div>
+                                        </p>
+                                        <p>
+                                            <span class="fs-14">Cách đây nhiều năm về trước khi dịch vụ mua bán trực tuyến chưa phát triển ,khách hàng muốn mua một sim số đẹp phải đi ra một cửa hàng,đại lý nào đó để ngồi “mò mẫm” chọn sim trong một list.Việc này đem lại sự mệt mỏi,phiền toái,mất thời gian…. Mà có khi không chọn được sim mình thích như sim năm sinh,tứ quý,sim tam hoa,số kép…. Bởi vì sim số đẹp nằm ở nhiều kho,đại lý nên không có sự so sánh trực quan về độ đẹp và giá cả</span>
+                                        </p>
+                                        <p>
+                                            <span class="fs-14">Trào lưu mua bán trực tuyến phát triển đã đem lại cho người mua sim rất nhiều lợi ích. Ngày nay chỉ cần có một chiếc điện thoại smartphone bạn có thể tìm kiếm, kiểm tra, so sánh,xem phong thủy sim,sim hợp tuổi,hợp mệnh... Ngay tại nhà, nơi làm việc, đi du lịch…</span>
+                                        </p>
+                                        <p class="text-center">
+                                            <span class="fs-18 txt-000">
+                                                <strong><img class="d-block mx-auto mw-100 m-100" src="./assets/images/khosim-02/Loi_ich_mua_sim_so_dep.svg" alt="Lợi ích của việc mua sim số đẹp"></strong>
+                                            </span>
+                                            <span class="txt-000" style="font-weight: 400">
+                                                <em>
+                                                    <span style="font-weight: 400;">Đăng ký gói Mimax450 Viettel ưu đãi mỗi tháng 5GB Data tốc độ cao trong 6 tháng</span>
+                                                </em>
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <div class="fs-15 fw-bold">Lợi ích của việc mua sim số đẹp trên web muasim.com.vn</div>
+                                        </p>
+                                        <p>
+                                            <span class="fs-14">Cách đây nhiều năm về trước khi dịch vụ mua bán trực tuyến chưa phát triển ,khách hàng muốn mua một sim số đẹp phải đi ra một cửa hàng,đại lý nào đó để ngồi “mò mẫm” chọn sim trong một list.Việc này đem lại sự mệt mỏi,phiền toái,mất thời gian…. Mà có khi không chọn được sim mình thích như sim năm sinh,tứ quý,sim tam hoa,số kép…. Bởi vì sim số đẹp nằm ở nhiều kho,đại lý nên không có sự so sánh trực quan về độ đẹp và giá cả</span>
+                                        </p>
+                                        <p>
+                                            <span class="fs-14">Trào lưu mua bán trực tuyến phát triển đã đem lại cho người mua sim rất nhiều lợi ích. Ngày nay chỉ cần có một chiếc điện thoại smartphone bạn có thể tìm kiếm, kiểm tra, so sánh,xem phong thủy sim,sim hợp tuổi,hợp mệnh... Ngay tại nhà, nơi làm việc, đi du lịch…</span>
+                                        </p>
+                                        <div class="article-title position-relative my-4 py-4 px-4" style="background: #F7F7F7">
+                                            <span class="txt-000 fs-14 border-bottom">Xem thêm về </span>
+                                            <a href="#" class="text-decoration-none fs-14">dịch vụ Viettel</a>
+                                            <p class="pt-3 pb-2">
+                                                <a href="chitiettintuc.html" class="text-decoration-none fs-14 text-danger">Cách đăng ký dịch vụ nhạc chờ Funringmobifone Cách đăng ký dịch vụ</a>
+                                            </p>
+                                            <p>
+                                                <a href="chitiettintuc.html" class="text-decoration-none fs-14 text-dark">Cách đăng ký dịch vụ nhạc chờ Funringmobifone Cách đăng ký dịch vụ</a>
+                                            </p>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="blog-list mt-4">
+                                    <div class="col-12">
+                                        <div class="blog-list">
+                                            <div class="blog-item d-flex">
+                                                <a href="chitiettintuc.html" title="Nhà mạng của đầu số 0188? 0188 đổi thành đầu số nào? " class="blog-image align-top d-inline-block"><img alt="Nhà mạng của đầu số 0188? 0188 đổi thành đầu số nào? " class="img-fluid lazyload" src="./assets/images/khosim-02/goi-v90n-viettel-la-gi-1.svg"></a>
+                                                <div class="blog-title-wraper px-4">
+                                                    <h3 class="blog-title fs-14 fw-bold"><a href="chitiettintuc.html" title="Nhà mạng của đầu số 0188? 0188 đổi thành đầu số nào? " class="text-body text-decoration-none">Viettel khuyến mãi tặng data miễn phí và loạt ưu đãi hấp dẫn mừng Valentine Viettel khuyến mãi tặng data miễn phí và loạt ưu đãi hấp dẫn mừng Valentine</a></h3>
+                                                    <p class="blog-description fs-14 text-secondary mt-3">Đầu số 0188 đổi thành đầu số nào? Là câu hỏi không phải ai cũng có thể trả lời được một cách chính xác. Bài viết dưới đây sẽ giúp giải đáp thắc mắc cho mọi người. Đầu số 0188 đổi thành đầu số nào? Là câu hỏi không phải ai cũng có thể trả lời được một cách chính xác. Bài viết dưới đây sẽ giúp giải đáp thắc mắc cho mọi người</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="col-12">
+                                    <div class="blog-list">
+                                        <div class="blog-item d-flex">
+                                            <a href="chitiettintuc.html" title="Nhà mạng của đầu số 0188? 0188 đổi thành đầu số nào? " class="blog-image align-top d-inline-block"><img alt="Nhà mạng của đầu số 0188? 0188 đổi thành đầu số nào? " class="img-fluid lazyload" src="./assets/images/khosim-02/goi-v90n-viettel-la-gi-1.svg"></a>
+                                            <div class="blog-title-wraper px-4">
+                                                <h3 class="blog-title fs-14 fw-bold"><a href="chitiettintuc.html" title="Nhà mạng của đầu số 0188? 0188 đổi thành đầu số nào? " class="text-body text-decoration-none">Viettel khuyến mãi tặng data miễn phí và loạt ưu đãi hấp dẫn mừng Valentine Viettel khuyến mãi tặng data miễn phí và loạt ưu đãi hấp dẫn mừng Valentine</a></h3>
+                                                <p class="blog-description fs-14 text-secondary mt-3">Đầu số 0188 đổi thành đầu số nào? Là câu hỏi không phải ai cũng có thể trả lời được một cách chính xác. Bài viết dưới đây sẽ giúp giải đáp thắc mắc cho mọi người. Đầu số 0188 đổi thành đầu số nào? Là câu hỏi không phải ai cũng có thể trả lời được một cách chính xác. Bài viết dưới đây sẽ giúp giải đáp thắc mắc cho mọi người</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="col-12">
+                                    <div class="blog-list">
+                                        <div class="blog-item d-flex">
+                                            <a href="chitiettintuc.html" title="Nhà mạng của đầu số 0188? 0188 đổi thành đầu số nào? " class="blog-image align-top d-inline-block"><img alt="Nhà mạng của đầu số 0188? 0188 đổi thành đầu số nào? " class="img-fluid lazyload" src="./assets/images/khosim-02/goi-v90n-viettel-la-gi-1.svg"></a>
+                                            <div class="blog-title-wraper px-4">
+                                                <h3 class="blog-title fs-14 fw-bold"><a href="chitiettintuc.html" title="Nhà mạng của đầu số 0188? 0188 đổi thành đầu số nào? " class="text-body text-decoration-none">Viettel khuyến mãi tặng data miễn phí và loạt ưu đãi hấp dẫn mừng Valentine Viettel khuyến mãi tặng data miễn phí và loạt ưu đãi hấp dẫn mừng Valentine</a></h3>
+                                                <p class="blog-description fs-14 text-secondary mt-3">Đầu số 0188 đổi thành đầu số nào? Là câu hỏi không phải ai cũng có thể trả lời được một cách chính xác. Bài viết dưới đây sẽ giúp giải đáp thắc mắc cho mọi người. Đầu số 0188 đổi thành đầu số nào? Là câu hỏi không phải ai cũng có thể trả lời được một cách chính xác. Bài viết dưới đây sẽ giúp giải đáp thắc mắc cho mọi người</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-reuse bg-BFA text-white mt--9">
+                                    <button type="button" id="btn-1" class="mw-100 fw-bold text-white text-uppercase btn-warning fs-15" style="letter-spacing: 0.15rem;">Xem thêm <span><i class="far fa-chevron-down fs-13"></i></span></button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Side bar -->
-                    <div class="col-lg-3 fs-14">
-                        <div class="row border mb-4 rounded">
-                            <div class="card-header text-uppercase text-white fw-bold bg-dark-blue text-center" style="letter-spacing: 0.15rem;">Sim năm sinh</div>
+                    <div class="col-lg-3 fs-14 mt-mobile-12">
+                        <div class="row border mb-4 rounded mg-0-3">
+                            <h2 class="card-header text-uppercase text-white fw-bold bg-dark-blue text-center fs-14 py-3"
+                                style="letter-spacing: 0.15rem;">Sim năm sinh</h2>
                             <h5 class="mt-3">Nhập ngày/tháng/năm sinh</h5>
                             <div class="form-row fs-14 mt-1 mb-3">
                                 <div class="input-group">
                                     <div class="col-3 pe-1">
-                                        <select id="widget-left-day" class="form-select form-select-sm rounded-3 cursor fs-14">
+                                        <select id="widget-left-day"
+                                            class="form-select form-select-sm rounded-3 cursor fs-14">
                                             <option value="01">01</option>
                                             <option value="02">02</option>
                                             <option value="03">03</option>
@@ -180,7 +784,8 @@
                                         </select>
                                     </div>
                                     <div class="col-3 pe-1">
-                                        <select id="widget-left-month" class="form-select form-select-sm rounded-3 cursor fs-14">
+                                        <select id="widget-left-month"
+                                            class="form-select form-select-sm rounded-3 cursor fs-14">
                                             <option value="01">01</option>
                                             <option value="02">02</option>
                                             <option value="03">03</option>
@@ -196,52 +801,54 @@
                                         </select>
                                     </div>
                                     <div class="col-3 pe-1">
-                                        <select id="widget-left-year" class="form-select form-select-sm rounded-3 cursor fs-14">
+                                        <select id="widget-left-year"
+                                            class="form-select form-select-sm rounded-3 cursor fs-14">
                                             <option value="2011">2011</option>
-                                                                        <option value="2010">2010</option>
-                                                                        <option value="2009">2009</option>
-                                                                        <option value="2008">2008</option>
-                                                                        <option value="2007">2007</option>
-                                                                        <option value="2006">2006</option>
-                                                                        <option value="2005">2005</option>
-                                                                        <option value="2004">2004</option>
-                                                                        <option value="2003">2003</option>
-                                                                        <option value="2002">2002</option>
-                                                                        <option value="2001">2001</option>
-                                                                        <option value="2000">2000</option>
-                                                                        <option value="1999">1999</option>
-                                                                        <option value="1998">1998</option>
-                                                                        <option value="1997">1997</option>
-                                                                        <option value="1996">1996</option>
-                                                                        <option value="1995">1995</option>
-                                                                        <option value="1994">1994</option>
-                                                                        <option value="1993">1993</option>
-                                                                        <option value="1992">1992</option>
-                                                                        <option value="1991">1991</option>
-                                                                        <option value="1990">1990</option>
-                                                                        <option value="1989">1989</option>
-                                                                        <option value="1988">1988</option>
-                                                                        <option value="1987">1987</option>
-                                                                        <option value="1986">1986</option>
-                                                                        <option value="1985">1985</option>
-                                                                        <option value="1984">1984</option>
-                                                                        <option value="1983">1983</option>
-                                                                        <option value="1982">1982</option>
-                                                                        <option value="1981">1981</option>
-                                                                        <option value="1980">1980</option>
-                                                                        <option value="1979">1979</option>
-                                                                        <option value="1978">1978</option>
-                                                                        <option value="1977">1977</option>
-                                                                        <option value="1976">1976</option>
-                                                                        <option value="1975">1975</option>
-                                                                </select>
+                                            <option value="2010">2010</option>
+                                            <option value="2009">2009</option>
+                                            <option value="2008">2008</option>
+                                            <option value="2007">2007</option>
+                                            <option value="2006">2006</option>
+                                            <option value="2005">2005</option>
+                                            <option value="2004">2004</option>
+                                            <option value="2003">2003</option>
+                                            <option value="2002">2002</option>
+                                            <option value="2001">2001</option>
+                                            <option value="2000">2000</option>
+                                            <option value="1999">1999</option>
+                                            <option value="1998">1998</option>
+                                            <option value="1997">1997</option>
+                                            <option value="1996">1996</option>
+                                            <option value="1995">1995</option>
+                                            <option value="1994">1994</option>
+                                            <option value="1993">1993</option>
+                                            <option value="1992">1992</option>
+                                            <option value="1991">1991</option>
+                                            <option value="1990">1990</option>
+                                            <option value="1989">1989</option>
+                                            <option value="1988">1988</option>
+                                            <option value="1987">1987</option>
+                                            <option value="1986">1986</option>
+                                            <option value="1985">1985</option>
+                                            <option value="1984">1984</option>
+                                            <option value="1983">1983</option>
+                                            <option value="1982">1982</option>
+                                            <option value="1981">1981</option>
+                                            <option value="1980">1980</option>
+                                            <option value="1979">1979</option>
+                                            <option value="1978">1978</option>
+                                            <option value="1977">1977</option>
+                                            <option value="1976">1976</option>
+                                            <option value="1975">1975</option>
+                                        </select>
                                     </div>
                                     <div class="col-3 pe-1">
-                                        <div class="">
-                                            <button type="submit" class="btn btn-sm text-uppercase fw-bold text-white bg-dark-blue cursor fs-12 btn-timsim">Tìm sim</button>
+                                        <div>
+                                            <button type="submit"
+                                                class="btn btn-sm text-uppercase fw-bold text-white bg-dark-blue cursor fs-12 btn-timsim">Tìm sim</button>
                                         </div>
                                     </div>
-                                    </div>
+                                </div>
                             </div>
                             <div class="col-6 col-md-6 border-end border-bottom border-top py-2 text-center">
                                 <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark">Năm 1996</a>
@@ -268,35 +875,47 @@
                                 <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark">Năm 1993</a>
                             </div>
                         </div>
-                        <div class="row border mb-4 rounded">
-                            <div class="card-header text-uppercase text-white fw-bold bg-dark-blue text-center" style="letter-spacing: 0.15rem;">Sim theo mạng</div>
+                        <div class="row border mb-4 rounded mg-0-3">
+                            <h2 class="card-header text-uppercase text-white fw-bold bg-dark-blue text-center fs-14 py-3"
+                                style="letter-spacing: 0.15rem;">Sim theo mạng</h2>
                             <div class="col-6 col-md-6 border-end border-bottom border-top py-2 text-center side-img">
-                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img src="./assets/images/logosquare/mobiphone.svg" alt="Mobifone" class="mw-100"></a>
+                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img
+                                        src="./assets/images/logosquare/mobiphone.svg" alt="Mobifone" class="mw-100"></a>
                             </div>
                             <div class="col-6 col-md-6 border-top border-bottom py-2 text-center side-img">
-                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img src="./assets/images/logosquare/vinaphone.svg" alt="Vinaphone" class="mw-100"></a>
+                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img
+                                        src="./assets/images/logosquare/vinaphone.svg" alt="Vinaphone" class="mw-100"></a>
                             </div>
                             <div class="col-6 col-md-6 border-end py-2 text-center side-img">
-                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img src="./assets/images/logosquare/viettel.svg" alt="Viettel" class="mw-100"></a>
+                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img
+                                        src="./assets/images/logosquare/viettel.svg" alt="Viettel" class="mw-100"></a>
                             </div>
                             <div class="col-6 col-md-6 py-2 text-center side-img">
-                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img src="./assets/images/logosquare/vietnamobile.svg" alt="Vietnamobile" class="mw-100"></a>
+                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img
+                                        src="./assets/images/logosquare/vietnamobile.svg" alt="Vietnamobile"
+                                        class="mw-100"></a>
                             </div>
                             <div class="col-6 col-md-6 border-end border-bottom border-top py-2 text-center side-img">
-                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img src="./assets/images/logosquare/itelecom.svg" alt="iTelecom" class="mw-100"></a>
+                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img
+                                        src="./assets/images/logosquare/itelecom.svg" alt="iTelecom" class="mw-100"></a>
                             </div>
                             <div class="col-6 col-md-6 border-top border-bottom py-2 text-center side-img">
-                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img src="./assets/images/logosquare/reddi.svg" alt="Reddi" class="mw-100"></a>
+                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img
+                                        src="./assets/images/logosquare/reddi.svg" alt="Reddi" class="mw-100"></a>
                             </div>
                             <div class="col-6 col-md-6 border-end py-2 text-center side-img">
-                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img src="./assets/images/logosquare/gmobile.svg" alt="Gmobile" class="mw-100"></a>
+                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><img
+                                        src="./assets/images/logosquare/gmobile.svg" alt="Gmobile" class="mw-100"></a>
                             </div>
-                            <div class="col-6 col-md-6 py-2 text-center side-img d-flex align-items-center justify-content-center">
-                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><span>Chọn tất cả</span></a>
+                            <div
+                                class="col-6 col-md-6 py-2 text-center side-img d-flex align-items-center justify-content-center">
+                                <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark"><span>Chọn tất
+                                        cả</span></a>
                             </div>
                         </div>
-                        <div class="row border mb-4 rounded">
-                            <div class="card-header text-uppercase text-white fw-bold bg-dark-blue text-center" style="letter-spacing: 0.15rem;">Sim theo loại</div>
+                        <div class="row border mb-4 rounded mg-0-3">
+                            <h2 class="card-header text-uppercase text-white fw-bold bg-dark-blue text-center fs-14 py-3"
+                                style="letter-spacing: 0.15rem;">Sim theo loại</h2>
                             <div class="col-6 col-md-6 border-end border-bottom border-top py-2 text-center">
                                 <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark">Sim giá rẻ</a>
                             </div>
@@ -373,8 +992,9 @@
                                 <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark">Chọn tất cả</a>
                             </div>
                         </div>
-                        <div class="row border mb-4 rounded">
-                            <div class="card-header text-uppercase text-white fw-bold bg-dark-blue text-center" style="letter-spacing: 0.15rem;">Sim theo giá</div>
+                        <div class="row border mb-4 rounded mg-0-3">
+                            <h2 class="card-header text-uppercase text-white fw-bold bg-dark-blue text-center fs-14 py-3"
+                                style="letter-spacing: 0.15rem;">Sim theo giá</h2>
                             <div class="col-6 col-md-6 border-end border-bottom border-top py-2 text-center">
                                 <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark">Dưới 500 ngàn</a>
                             </div>
@@ -406,33 +1026,59 @@
                                 <a href="ketquatimsim.html" class="text-decoration-none fs-14 txt-dark">200 - 500 triệu</a>
                             </div>
                         </div>
-                        <div class="row mb-4 rounded position-relative">
-                            <div class="text-uppercase txt-000 fw-bold text-left ml--8 test" style="letter-spacing: 0.15rem;">Tin tức<span class="separate bg-dark-blue hide-mobile"></span></div>
+                        <div class="row mb-4 rounded position-relative mg-0-3">
+                            <h2 class="text-uppercase txt-000 fw-bold text-start ml--8 test fs-14 py-3"
+                                style="letter-spacing: 0.15rem;">Tin tức<span
+                                    class="separate bg-dark-blue hide-mobile"></span></h2>
                             <div class="col-12 mt-2">
                                 <div class="blog-new">
                                     <a href="chitiettintuc.html">
-                                        <img class="mw-100 w-100 rounded" src="./assets/images/news/sidebar.svg" alt="Bật mí thủ thuật tăng tốc độ 3G Viettel hiệu quả">
+                                        <img class="mw-100 w-100 rounded" src="./assets/images/news/sidebar.svg"
+                                            alt="Bật mí thủ thuật tăng tốc độ 3G Viettel hiệu quả">
                                     </a>
                                     <div class="blog-info">
-                                        <a href="chitiettintuc.html" class="text-decoration-none txt-000 fs-18 d-block mt-2">Bật mí thủ thuật tăng tốc độ 3G Viettel hiệu quả</a>
-                                        <p class="fs-13"><a href="#" class="txt-000 text-decoration-none">Tin mới </a><span class="txt-gray">- 6 giờ trước</span></p>
-                                        <p class="txt-gray fs-14 border-bottom pb-4">Tốc độ mạng cao sẽ giúp quá trình lướt web trở nên mềm mượt, trơn tru. Vậy tại sao bạn không học lỏm thủ thuật tăng tốc độ 3G Viettel để sử dụng.</p>    
+                                        <a href="chitiettintuc.html"
+                                            class="text-decoration-none txt-000 fs-18 d-block mt-2">Bật mí thủ thuật tăng
+                                            tốc độ 3G Viettel hiệu quả</a>
+                                        <p class="fs-13"><a href="#" class="txt-000 text-decoration-none">Tin mới </a><span
+                                                class="txt-gray">- 6 giờ trước</span></p>
+                                        <p class="txt-gray fs-14 border-bottom pb-4">Tốc độ mạng cao sẽ giúp quá trình lướt
+                                            web trở nên mềm mượt, trơn tru. Vậy tại sao bạn không học lỏm thủ thuật tăng tốc
+                                            độ 3G Viettel để sử dụng.</p>
                                     </div>
                                 </div>
                                 <span class="txt-gray fw-bold fs-13 ml--8 mb-1 hide-mobile">Đọc thêm</span>
                                 <div class="blog-list">
                                     <ul class="ps-1">
-                                        <li><a href="chitiettintuc.html" class="text-decoration-none fs-14 txt-000 mb-2 d-block">Gói LN2, LN1 Mobifone - Tri Ân Khách Hàng Cực Khủng <span class="txt-gray">- 6 giờ trước</span></a></li>
-                                        <li><a href="chitiettintuc.html" class="text-decoration-none fs-14 txt-000 mb-2 d-block">Băng thông là gì? Những lưu ý khi hack băng thông <span class="txt-gray">- 12 giờ trước</span></a></li>
-                                        <li><a href="chitiettintuc.html" class="text-decoration-none fs-14 txt-000 mb-2 d-block">Tổng hợp các đầu số nhà mạng tại Việt Nam chi tiết nhất <span class="txt-gray">- 1 giờ trước</span></a></li>
-                                        <li><a href="chitiettintuc.html" class="text-decoration-none fs-14 txt-000 mb-2 d-block">5G là gì? Giải đáp câu hỏi thường gặp về mạng 5G <span class="txt-gray">- 5 giờ trước</span></a></li>
-                                        <li><a href="chitiettintuc.html" class="text-decoration-none fs-14 txt-000 mb-2 d-block">Nhà mạng của đầu số 0188? 0188 đổi thành đầu số nào? <span class="txt-gray">- 20 giờ trước</span></a></li>
+                                        <li><a href="chitiettintuc.html"
+                                                class="text-decoration-none fs-14 txt-000 mb-2 d-block">Gói LN2, LN1
+                                                Mobifone - Tri Ân Khách Hàng Cực Khủng <span class="txt-gray">- 6 giờ
+                                                    trước</span></a></li>
+                                        <li><a href="chitiettintuc.html"
+                                                class="text-decoration-none fs-14 txt-000 mb-2 d-block">Băng thông là gì?
+                                                Những lưu ý khi hack băng thông <span class="txt-gray">- 12 giờ
+                                                    trước</span></a></li>
+                                        <li><a href="chitiettintuc.html"
+                                                class="text-decoration-none fs-14 txt-000 mb-2 d-block">Tổng hợp các đầu số
+                                                nhà mạng tại Việt Nam chi tiết nhất <span class="txt-gray">- 1 giờ
+                                                    trước</span></a></li>
+                                        <li><a href="chitiettintuc.html"
+                                                class="text-decoration-none fs-14 txt-000 mb-2 d-block">5G là gì? Giải đáp
+                                                câu hỏi thường gặp về mạng 5G <span class="txt-gray">- 5 giờ
+                                                    trước</span></a></li>
+                                        <li><a href="chitiettintuc.html"
+                                                class="text-decoration-none fs-14 txt-000 mb-2 d-block">Nhà mạng của đầu số
+                                                0188? 0188 đổi thành đầu số nào? <span class="txt-gray">- 20 giờ
+                                                    trước</span></a></li>
                                     </ul>
                                     <div class="btn-reuse bg-BFA text-white">
-                                        <button type="button" id="btn-1" class="mw-100 fw-bold text-white text-uppercase btn-warning" style="letter-spacing: 0.15rem;">Xem thêm <span><i class="far fa-chevron-down fs-13"></i></span></button>
+                                        <button type="button" id="btn-1"
+                                            class="mw-100 fw-bold text-white text-uppercase btn-warning"
+                                            style="letter-spacing: 0.15rem;">Xem thêm <span><i
+                                                    class="far fa-chevron-down fs-13"></i></span></button>
                                     </div>
                                 </div>
-
+    
                             </div>
                         </div>
                     </div>
@@ -440,26 +1086,33 @@
             </div>
         </main>
         <footer>
-            <div id="footer-top"  class="bg-dark-blue">
+            <div id="footer-top" class="bg-dark-blue">
                 <div class="container">
-                    <div class="row">
+                    <div class="row mg-0-3">
                         <div class="col-12">
                             <ul class="list-inline fs-14 mb-0 py-3 menu-footer">
-                                <li class="list-inline-item pe-4"><a href="trangchu.html" class="text-decoration-none text-white">Trang chủ</a></li>
-                                <li class="list-inline-item pe-4"><a href="huongdanthanhtoan.html" class="text-decoration-none text-white">Sim theo mạng</a></li>
-                                <li class="list-inline-item pe-4"><a href="ketquatimsim.html" class="text-decoration-none text-white">Sim theo giá</a></li>
-                                <li class="list-inline-item pe-4"><a href="khongcosim.html" class="text-decoration-none text-white">Sim theo loại</a></li>
-                                <li class="list-inline-item pe-4"><a href="page404.html" class="text-decoration-none text-white">Sim theo năm sinh</a></li>
-                                <li class="list-inline-item pe-4"><a href="thanhtoanthanhcong.html" class="text-decoration-none text-white">Tin tức</a></li>
-                                <li class="list-inline-item"><a href="tintuc.html" class="text-decoration-none text-white">Trợ giúp</a></li>
+                                <li class="list-inline-item pe-4"><a href="trangchu.html"
+                                        class="text-decoration-none text-white">Trang chủ</a></li>
+                                <li class="list-inline-item pe-4"><a href="huongdanthanhtoan.html"
+                                        class="text-decoration-none text-white">Sim theo mạng</a></li>
+                                <li class="list-inline-item pe-4"><a href="ketquatimsim.html"
+                                        class="text-decoration-none text-white">Sim theo giá</a></li>
+                                <li class="list-inline-item pe-4"><a href="khongcosim.html"
+                                        class="text-decoration-none text-white">Sim theo loại</a></li>
+                                <li class="list-inline-item pe-4"><a href="page404.html"
+                                        class="text-decoration-none text-white">Sim theo năm sinh</a></li>
+                                <li class="list-inline-item pe-4"><a href="thanhtoanthanhcong.html"
+                                        class="text-decoration-none text-white">Tin tức</a></li>
+                                <li class="list-inline-item"><a href="tintuc.html"
+                                        class="text-decoration-none text-white">Trợ giúp</a></li>
                             </ul>
-                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="footer-center">
                 <div class="container">
-                    <div class="row mt-4">
+                    <div class="row mt-4 mg-0-3">
                         <div class="col-12 col-lg-9 fs-14">
                             <div class="d-flex">
                                 <div class="pe-5">
@@ -474,37 +1127,34 @@
                         </div>
                         <div class="col-12 col-lg-3 fs-14">
                             <p><span class="txt-blue fw-bold">Kết nối với chúng tôi</span></p>
-                            <a class="text-decoration-none pe-3 cursor"><i class="fab fa-facebook-square fs-38"></i></a> <a class="text-decoration-none cursor"><i class="fab fa-google-plus-square fs-38"></i></a>
+                            <a class="text-decoration-none pe-3 cursor"><i class="fab fa-facebook-square fs-38"></i></a> <a
+                                class="text-decoration-none cursor"><i class="fab fa-google-plus-square fs-38"></i></a>
                         </div>
                         <div class="col-12 fs-14 mt-4">
-                            <p><span>Địa chỉ cửa hàng  (8h00 - 22h00)</span></p>
-                            <p><span class="text-phone fs-14 fw-bold">Bùi Đình Tuý, Phường 24, Bình Thạnh, Hồ Chí Minh.</span></p>
+                            <p><span>Địa chỉ cửa hàng (8h00 - 22h00)</span></p>
+                            <p><span class="text-phone fs-14 fw-bold">Bùi Đình Tuý, Phường 24, Bình Thạnh, Hồ Chí
+                                    Minh.</span></p>
                         </div>
                     </div>
                 </div>
                 <div class="border pt-3 px-4">
-                    <p class="fs-14 text-lg-center">© <a href="#" class="fw-bold text-decoration-none txt-000">Kho Sim</a> - Công ty TNHH TMDV Viễn thông Kho Sim. GPDKKD: 0314882320 do sở KH & ĐT TP.HCM cấp ngày 07/02/2018</p>
+                    <p class="fs-14 text-lg-center">© <a href="#" class="fw-bold text-decoration-none txt-000">Kho Sim</a> -
+                        Công ty TNHH TMDV Viễn thông Kho Sim. GPDKKD: 0314882320 do sở KH & ĐT TP.HCM cấp ngày 07/02/2018
+                    </p>
                 </div>
-            </div> 
+            </div>
         </footer>
     </div>
-    <script>
-         $(".check-height").matchHeight({
-        byRow: true,
-        property: 'height',
-        target: null,
-        remove: false
-    });
     </script>
     <script src="./assets/lib/bootstrap-5/js/test.js"></script>
     <script src="./assets/lib/bootstrap-5/js/jquery-3.1.1.min.js"></script>
     <script src="./assets/lib/bootstrap-5/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
-        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
-        crossorigin="anonymous"></script>
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
-        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
-        crossorigin="anonymous"></script>
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

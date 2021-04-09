@@ -1,0 +1,34 @@
+.blog-new{
+    a{
+        width: 40%;
+    }
+    .blog-wrapper{
+        width: 60%;
+    }
+}
+.blog-list{
+    .blog-item{
+        a{
+            width: 25%;
+        }
+        .blog-title-wraper{
+            width: 75%;
+            line-height: 2.2rem;
+            .blog-title{
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                line-height: 2rem;
+            }
+            .blog-description{
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+    }
+}

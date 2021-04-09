@@ -1,9 +1,9 @@
-#footer-top::-webkit-scrollbar {
-    display: none;
-}
 #footer-top{
     .menu-footer{
         white-space: nowrap;
         overflow-x: auto
+    }
+    &::-webkit-scrollbar {
+        display: none;
     }
 }
